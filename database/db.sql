@@ -1,0 +1,14 @@
+CREATE DATABASE IF NOT EXISTS mercadoestoque DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE mercadoestoque;
+
+CREATE TABLE produto (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(120) NOT NULL,
+    categoria VARCHAR(80) NOT NULL,
+    descricao TEXT NOT NULL,
+    preco DECIMAL(10, 2) NOT NULL,
+    quantidade_estoque INT NOT NULL,
+    data_validade DATE NOT NULL,
+    criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    atualizado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);

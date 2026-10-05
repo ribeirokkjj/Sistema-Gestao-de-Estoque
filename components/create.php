@@ -18,4 +18,3 @@ mysqli_stmt_execute($comando);
 header("Location: ../index.php");
 exit();
 ?>
-feat - adicionado cadastro, edicao e exclusao
