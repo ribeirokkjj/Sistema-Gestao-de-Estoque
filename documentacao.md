@@ -1,3 +1,5 @@
+- OBS: Caso de uso está anexado no AVA
+
 ## Regras de Negócio (RN)
 
 - RN1: Todo produto cadastrado deve conter obrigatoriamente nome, categoria, descrição, preço, quantidade em estoque e data de validade.
@@ -15,5 +17,3 @@
 ## Requisitos Não Funcionais (RNF)
 
 - RNF1: O sistema deve utilizar obrigatoriamente *Prepared Statements* em todas as operações de banco de dados para garantir a segurança.
-
-- OBS: Caso de uso está anexado no AVA
